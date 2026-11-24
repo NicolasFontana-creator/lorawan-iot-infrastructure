@@ -2,7 +2,7 @@
 
 [Español](README.md) · [English](README.en.md)
 
-FlowFuse muestra la última temperatura por placa y los estados Frío, Normal y Calor. Los indicadores incluyen promedio, extremos y dispersión de temperatura, RSSI en dBm y SNR en dB. El formulario histórico permite elegir placa y período. Grafana consulta InfluxDB para mostrar temperaturas, ubicación e indicadores de radio.
+FlowFuse muestra la última temperatura por placa y los estados Frío, Normal y Calor. Los indicadores incluyen promedio, extremos y dispersión de temperatura, RSSI en dBm y SNR en dB. El formulario histórico permite elegir placa y período. Grafana consulta las series almacenadas en InfluxDB para visualizar temperatura, ubicación geográfica, RSSI y SNR.
 
 Capturas históricas del informe. La notación de los rangos en p. 5 deja sin definir el tratamiento de valores decimales entre 30 y 31 °C y de extremos fuera de rango. Las tarjetas acreditan los estados observados; haría falta el flujo para reproducir todas las reglas.
 
