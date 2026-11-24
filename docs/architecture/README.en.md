@@ -2,9 +2,11 @@
 
 [Español](README.md) · [English](README.en.md)
 
-![Conceptual sensor, gateway and TTN path; documented MQTT, Node-RED, InfluxDB, FlowFuse, PDF and Grafana integration.](../../assets/diagrams/architecture-en.svg)
+![Nine LoRaWAN nodes → Gateway A → TTN → MQTT → Node-RED. Node-RED updates FlowFuse, generates PDF reports and writes to InfluxDB. Grafana queries the time series and RStudio accesses stored data.](../../assets/diagrams/architecture-en.svg)
 
-Dashed arrows identify the access path in the conceptual reference. The report shows nine boards and incoming MQTT events. Gateway model, backhaul and registration with The Things Network (TTN) still require configuration evidence.
+The laboratory’s nine LoRaWAN nodes communicate with Gateway A and are managed through The Things Network (TTN). Nicolás Nahuel Fontana developed the software platform that receives readings from TTN over MQTT, processes and stores them, and supports visualization and reporting.
+
+Node-RED writes readings to InfluxDB. Grafana queries the stored series for its panels. RStudio can access the data through the connection configured by the author.
 
 The reference identifies SODAQ boards; an example report includes that name (p. 10). It does not establish a board or sensor model. LoRa denotes the radio physical layer and LoRaWAN the access architecture. The gateway connects radio reception with the network server. MQTT is the downstream messaging interface.
 

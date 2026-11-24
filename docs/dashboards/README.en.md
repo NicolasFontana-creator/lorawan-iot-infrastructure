@@ -2,7 +2,7 @@
 
 [Español](README.md) · [English](README.en.md)
 
-FlowFuse shows the latest temperature per board and the Cold, Normal and Hot states. Indicators include mean, extremes and spread of temperature, RSSI in dBm and SNR in dB. Operators select a board and time range for historical queries. Grafana queries InfluxDB for temperature, location and radio panels.
+FlowFuse shows the latest temperature per board and the Cold, Normal and Hot states. Indicators include mean, extremes and spread of temperature, RSSI in dBm and SNR in dB. Operators select a board and time range for historical queries. Grafana queries data stored in InfluxDB to display temperature, geographic location, RSSI and SNR.
 
 Historical screenshots from the report. The range notation on p. 5 leaves the handling of decimal values between 30 and 31 °C and out-of-range values open. The cards show observed states; the original flow is needed to reproduce every rule.
 
