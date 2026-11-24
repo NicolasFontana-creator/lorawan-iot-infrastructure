@@ -35,7 +35,7 @@
 <text x="280" y="425" font-size="15" font-weight="450" fill="#d1e3eb">Actions and results</text>
 <path d="M118 399V477" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" marker-start="url(#live)" />
 <text x="130" y="446" font-size="15" font-weight="450" fill="#d1e3eb">Series / queries</text>
-<path d="M198 399V462H380V476" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" />
+<path d="M198 399V410H266V462H380V476" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" />
 <path d="M20 492C20 470 218 470 218 492V539C218 561 20 561 20 539Z" fill="#193348" stroke="#7896a6"/><path d="M20 492C20 509 218 509 218 492" fill="none" stroke="#7896a6"/>
 <text x="34" y="526" font-size="20" font-weight="650" fill="#eef7fb">InfluxDB</text>
 <text x="34" y="546" font-size="15" font-weight="450" fill="#eef7fb">Time series</text>
