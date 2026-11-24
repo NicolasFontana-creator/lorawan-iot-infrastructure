@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="792" viewBox="0 0 500 792" role="img" aria-labelledby="title desc">
+<title id="title">From sensor to report</title>
+<desc id="desc">Conceptual radio path. MQTT feeds Node-RED. The dashboard queries series, presents results and saves reports. Grafana queries InfluxDB.</desc>
+<defs>
+<marker id="live" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="10" refX="7" refY="5" orient="auto-start-reverse"><path d="M0 0L8 5L0 10Z" fill="#6bdcd0"/></marker>
+<marker id="ref" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="10" refX="7" refY="5" orient="auto-start-reverse"><path d="M0 0L8 5L0 10Z" fill="#f1bd75"/></marker>
+</defs><rect width="500" height="792" rx="16" fill="#0e2032"/><g font-family="system-ui,sans-serif">
+<text x="20" y="40" font-size="29" font-weight="700" fill="#eef7fb">From sensor to report</text>
+<text x="20" y="74" font-size="18" font-weight="450" fill="#ffcc88">Radio access · conceptual reference</text>
+<rect x="20" y="90" width="198" height="70" rx="9" fill="#193348" stroke="#c69c68"/>
+<text x="32" y="118" font-size="19" font-weight="650" fill="#eef7fb">Sensor nodes</text>
+<text x="32" y="144" font-size="16" font-weight="450" fill="#d1e3eb">Boards · temperature</text>
+<rect x="281" y="90" width="198" height="70" rx="9" fill="#193348" stroke="#c69c68"/>
+<text x="293" y="118" font-size="16" font-weight="650" fill="#eef7fb">Gateway LoRaWAN</text>
+<text x="293" y="144" font-size="16" font-weight="450" fill="#d1e3eb">Radio–network bridge</text>
+<path d="M218 125H279" fill="none" stroke="#f1bd75" stroke-width="2" marker-end="url(#ref)" stroke-dasharray="5 4"/>
+<text x="224" y="113" font-size="15" font-weight="450" fill="#ffcc88">LoRa</text>
+<rect x="281" y="200" width="198" height="70" rx="9" fill="#193348" stroke="#c69c68"/>
+<text x="293" y="228" font-size="16" font-weight="650" fill="#eef7fb">The Things Network</text>
+<text x="293" y="254" font-size="16" font-weight="450" fill="#d1e3eb">Network server</text>
+<path d="M380 160V198" fill="none" stroke="#f1bd75" stroke-width="2" marker-end="url(#ref)" stroke-dasharray="5 4"/>
+<rect x="20" y="200" width="198" height="70" rx="9" fill="#193348" stroke="#7896a6"/>
+<text x="32" y="228" font-size="19" font-weight="650" fill="#eef7fb">MQTT</text>
+<text x="32" y="254" font-size="16" font-weight="450" fill="#d1e3eb">Pub/sub messaging</text>
+<path d="M281 235H220" fill="none" stroke="#f1bd75" stroke-width="2" marker-end="url(#ref)" stroke-dasharray="5 4"/>
+<text x="22" y="307" font-size="18" font-weight="450" fill="#80e9de">Documented integration</text>
+<path d="M110 270V280H9V362H19" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" />
+<rect x="20" y="329" width="198" height="70" rx="9" fill="#193348" stroke="#7896a6"/>
+<text x="32" y="357" font-size="19" font-weight="650" fill="#eef7fb">Node-RED</text>
+<text x="32" y="383" font-size="16" font-weight="450" fill="#d1e3eb">Node.js</text>
+<rect x="281" y="329" width="198" height="70" rx="9" fill="#193348" stroke="#7896a6"/>
+<text x="293" y="357" font-size="16" font-weight="650" fill="#eef7fb">FlowFuse Dashboard</text>
+<text x="293" y="383" font-size="16" font-weight="450" fill="#d1e3eb">User interface</text>
+<path d="M219 364H280" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" marker-start="url(#live)" />
+<text x="280" y="425" font-size="15" font-weight="450" fill="#d1e3eb">Actions and results</text>
+<path d="M118 399V477" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" marker-start="url(#live)" />
+<text x="130" y="446" font-size="15" font-weight="450" fill="#d1e3eb">Series / queries</text>
+<path d="M198 399V410H266V462H380V476" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" />
+<path d="M20 492C20 470 218 470 218 492V539C218 561 20 561 20 539Z" fill="#193348" stroke="#7896a6"/><path d="M20 492C20 509 218 509 218 492" fill="none" stroke="#7896a6"/>
+<text x="34" y="526" font-size="20" font-weight="650" fill="#eef7fb">InfluxDB</text>
+<text x="34" y="546" font-size="15" font-weight="450" fill="#eef7fb">Time series</text>
+<path d="M281 478H452L479 505V550H281Z M452 478V505H479" fill="#193348" stroke="#7896a6"/>
+<text x="292" y="511" font-size="20" font-weight="650" fill="#eef7fb">PDF reports</text>
+<text x="292" y="537" font-size="15" font-weight="450" fill="#eef7fb">File directory</text>
+<path d="M118 556V607" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" marker-start="url(#live)" />
+<text x="131" y="588" font-size="15" font-weight="450" fill="#d1e3eb">Queries and series</text>
+<rect x="20" y="609" width="198" height="70" rx="9" fill="#193348" stroke="#7896a6"/>
+<text x="32" y="637" font-size="19" font-weight="650" fill="#eef7fb">Grafana</text>
+<text x="32" y="663" font-size="16" font-weight="450" fill="#d1e3eb">Analysis and panels</text>
+<rect x="281" y="609" width="198" height="70" rx="9" fill="#193348" stroke="#7896a6"/>
+<text x="293" y="637" font-size="19" font-weight="650" fill="#eef7fb">Web client</text>
+<text x="293" y="663" font-size="16" font-weight="450" fill="#d1e3eb">Browser views</text>
+<path d="M219 645H279" fill="none" stroke="#6bdcd0" stroke-width="2" marker-end="url(#live)" />
+<text x="20" y="716" font-size="17" font-weight="450" fill="#eef7fb">The client also accesses FlowFuse.</text>
+<path d="M20 749H61" stroke="#f1bd75" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="74" y="755" font-size="16" font-weight="450" fill="#ffcc88">Path awaiting deployment evidence</text>
+</g></svg>
